@@ -1,9 +1,5 @@
 // Your code here
 document.addEventListener("keydown", function(e) {
-  console.log(e.key);
-});
-
-document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
     let leftNumbers = dodger.style.left.replace("px", "");
     let left = parseInt(leftNumbers, 10);
